@@ -48,7 +48,7 @@ _hostname   = ""                    # SAST host endpoint for REST/SOAP, optional
 _username   = ""                    # SAST username, suitable for REST/SOAP usage
 _password   = ""                    # SAST password, suitable for REST/SOAP usage 
 _promport   = 9700                  # Prometheus listening port 
-_loglevel   = 0                     # Log level (0=Minimum, 1=Complete, 2=Debug)
+_loglevel   = 20                    # Log level (10=Debug, 20=Info, 30=Warning, 40=Error, 50=Critical)
 _configfile = "configs.json"        # File name holding configurations
 _logfile    = "cxprometheus.log"    # File name holding log entries (path is ./logs)
 
