@@ -1,0 +1,7 @@
+{
+    "hostname": "http://localhost",
+    "username": "serviceuser",
+    "password": "serviceuserpassword",
+    "promport": 9700,
+    "loglevel": 20
+}
